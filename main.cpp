@@ -1,13 +1,14 @@
-#include "Chapter_2.h"
-#include "Chapter_3.h"
+#include "Homework/Chapter_4.h"
+
 
 int main()
 {
-//    Cp3_4();
-//    Cp3_5();
-//    Cp3_6();
-//     Cp3_8_int();
-    Cp3_8_float();
+    //Cp4_2();
+    //Cp4_5();
+//    Cp4_6_7_8();
+
+    //cp48_1();
+    cp48_5();
     return 0;
 }
 

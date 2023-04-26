@@ -14,3 +14,4 @@ add_executable(C_Learning main.cpp)
  add_executable(C_Learning main.cpp \Homework\Chapter_2.h)
 ]]
 target_include_directories(C_Learning PRIVATE Homework)  # We can use this to avoid type head file in add_exe...()
+target_include_directories(C_Learning PRIVATE Chapter4)

@@ -30,7 +30,7 @@ void Cp3_4(){
     printf("%.2f\n", fl_a);
     printf("%f\n", fl_a);
     printf("%e\n", fl_a);
-    printf("%a\n", fl_a);
+    printf("%a\n", fl_a);   // p记数法
 }
 
 void Cp3_5() {

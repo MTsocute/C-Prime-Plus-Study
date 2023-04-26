@@ -33,6 +33,12 @@
 				"file" : 0,
 				"line" : 16,
 				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
 			}
 		]
 	},
@@ -53,6 +59,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/Users/momo/Desktop/C/Homework"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/momo/Desktop/C/Chapter4"
 				}
 			],
 			"language" : "CXX",
