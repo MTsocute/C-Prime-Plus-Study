@@ -55,11 +55,15 @@ void Review_8_c() {
 
 /* 编程题 */
 void cp_6_1() {
-    char alphabet_list[26];
-    for (int i = 0, ch = 'a'; i < 26; ++i, ch++)
+    char alphabet_list[27];
+    int i;
+    char ch;
+    for (i = 0, ch = 'a'; i < 26; ++i, ch++)
         alphabet_list[i] = ch;
-    for (char i : alphabet_list) {
-        printf("%c ", i);
+    alphabet_list[i] = '\0';
+
+    for (char u : alphabet_list) {
+        printf("%c ", u);
     }
 }
 
