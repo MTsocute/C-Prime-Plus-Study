@@ -121,5 +121,9 @@ void without_brace_demo2() {
             printf("%3d", 10*i+j);
 }
 
+// 一个要知道的运算方法
+void other_op() {
+    x *= 3 * y + 12;  // 等价于：x = x * (3 * y + 12)
+}
 
 #endif
