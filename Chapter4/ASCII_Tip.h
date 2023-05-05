@@ -6,8 +6,14 @@
 #define MAIN_CPP_ASCII_TIP_H
 #include <cstdio>
 
-void ts01() {
-    printf("Hello");
+// 占位符转 ASCII 到不同进制
+void ASC_and_Base() {
+    char ch = 'A';      // 相当于 int 65
+
+    /* 在不同的进制下面 */
+    printf("%d\n", ch);
+    printf("%#o\n", ch);
+    printf("%#x\n", ch);
 }
 
 // ASCII 对一单一字符的多种表示方式
