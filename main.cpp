@@ -1,12 +1,8 @@
-#include "Homework/Chapter_7.h"
+#include "Chapter8/EOF.h"
+#include "Chapter7/get_put_char.h"
 
 int main()
 {
-
-//    cp_7_1();
-//    cp_7_4();
-//    cp_7_5();
-
-    cp_7_9();
+    putchar_problem();
     return 0;
 }
