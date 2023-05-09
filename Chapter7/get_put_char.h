@@ -82,4 +82,13 @@ void display(char cr, int lines, int width)
 }
 
 
+void cp_ts() {
+    char ch;
+    while ((ch = getchar()) != '\n') {
+        putchar(ch++);
+        putchar(++ch);
+        putchar('\n');
+    }
+}
+
 #endif //MAIN_CPP_GET_PUT_CHAR_H
