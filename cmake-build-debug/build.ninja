@@ -52,9 +52,16 @@ build cmake_object_order_depends_target_C_Learning: phony || CMakeFiles/C_Learni
 build CMakeFiles/C_Learning.dir/main.cpp.o: CXX_COMPILER__C_Learning_Debug /Users/momo/Desktop/C/main.cpp || cmake_object_order_depends_target_C_Learning
   DEP_FILE = CMakeFiles/C_Learning.dir/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
-  INCLUDES = -I/Users/momo/Desktop/C/Homework -I/Users/momo/Desktop/C/Chapter4
+  INCLUDES = -I/Users/momo/Desktop/C/Homework
   OBJECT_DIR = CMakeFiles/C_Learning.dir
   OBJECT_FILE_DIR = CMakeFiles/C_Learning.dir
+
+build CMakeFiles/C_Learning.dir/Chapter9/分块的概念/hotel.cpp.o: CXX_COMPILER__C_Learning_Debug /Users/momo/Desktop/C/Chapter9/分块的概念/hotel.cpp || cmake_object_order_depends_target_C_Learning
+  DEP_FILE = CMakeFiles/C_Learning.dir/Chapter9/分块的概念/hotel.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/momo/Desktop/C/Homework
+  OBJECT_DIR = CMakeFiles/C_Learning.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_Learning.dir/Chapter9/分块的概念
 
 
 # =============================================================================
@@ -64,7 +71,7 @@ build CMakeFiles/C_Learning.dir/main.cpp.o: CXX_COMPILER__C_Learning_Debug /User
 #############################################
 # Link the executable C_Learning
 
-build C_Learning: CXX_EXECUTABLE_LINKER__C_Learning_Debug CMakeFiles/C_Learning.dir/main.cpp.o
+build C_Learning: CXX_EXECUTABLE_LINKER__C_Learning_Debug CMakeFiles/C_Learning.dir/main.cpp.o CMakeFiles/C_Learning.dir/Chapter9/分块的概念/hotel.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/C_Learning.dir
   POST_BUILD = :

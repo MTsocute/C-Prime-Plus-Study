@@ -7,12 +7,17 @@ set(CMAKE_CXX_STANDARD 14)
 # file(GLOB SOURCE 'Detail/*.cpp')
 #add_executable(C_Learning main.cpp ${SOURCE})
 
-add_executable(C_Learning main.cpp)
+add_executable(C_Learning
+        main.cpp
+        Chapter9/分块的概念/hotel.cpp
+)
 
 #[[
     With below function[target_include...()],
     we don't have to code like this:
         add_executable(C_Learning main.cpp \Homework\Chapter_2.h)
 ]]
-target_include_directories(C_Learning PRIVATE Homework)  # We can use this to avoid type head file in add_exe...()
-target_include_directories(C_Learning PRIVATE Chapter4)
+
+target_include_directories(C_Learning PRIVATE
+        Homework
+        )  # We can use this to avoid type head file in add_exe...()
