@@ -76,7 +76,7 @@ long rfact(int n)
 
 /* 实现是十进制转换二进制数 */
 void to_binary(unsigned long n) {
-    int r; // 余数
+    int r;      // 余数
     r = (int)n % 2;
     if (n>=2)
         to_binary(n / 2);   // 实现了商不断那往下除
