@@ -36,7 +36,7 @@ void pointer_without_const() {
      * 但是数组又是 const 修饰，数组也不能改变的啊
      * 所以干脆就别 非const 指针指向 const 数组了
      * */
-//    int * p2 = arr_3;     // False
+    int * p2 = arr_3;     // False
 }
 
 void locked_loc_pointer() {

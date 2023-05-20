@@ -1,7 +1,8 @@
-#include "Chapter9/分块的概念/hotel.h"
-#include "指针运算/指针运算规则.h"
+#include "复合字面量.h"
+#include "变长数组.h"
 
 int main()
 {
+    main_function();
     return 0;
 }
