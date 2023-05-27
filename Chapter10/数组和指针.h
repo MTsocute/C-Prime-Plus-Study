@@ -50,4 +50,49 @@ void arr_move() {
     printf("*(arr+2) = %d\n", *(p+2));
 }
 
+
+// 数组名是一个地址常量指针(int * const arr)，所以不可以进行 ++ 移动
+//void arr_pointer_difference() {
+//    int arr[3] = {1,2,3};
+//    // 不可以对自身移动，不然就是换数组地址了，这个对于一个静态常量是不允许的
+//    arr ++;
+//    ++arr;
+//    arr += 1;
+//    arr = arr + 1;
+//    // 但是自身移动是可以的
+//    arr + 3; // 这个并不改变首地址位置，而是给我们这个地址 + 3 个字节类型的那个地址的位置
+//}
+
+
+// 字符串地址
+#define MSG "I'm special"   // 字面量的字符串在一个静态存储区
+void string_address() {
+    /* 结合书本 P791~792 一起看
+     * 好好理解啥字面量字符串同数组字符串的地址不同的原因
+     * 一个是静态的字符串地址，一个是动态数组字符串地址
+     * */
+    char ar[] = MSG;    // 赋给数组以后就是一个动态变量了
+    const char *pt = MSG;
+    printf("address of \"I'm special\": %p \n", "I'm special");
+
+    // 只有这个地址和别的都不同(动态)
+    printf("            address ar: %p\n", ar);
+    printf("            address &ar[0]: %p\n", &ar[0]);
+
+    printf("            address pt: %p\n", pt);
+    printf("        address of MSG: %p\n", MSG);
+}
+
+
+// 字面量静态地址带来的大问题
+void static_address_issue() {
+    // 静态字面里会应用到所有的字面量，全部都是一个地址
+    char * p = "Nihao";     /* 指针指向静态的字面量，修改会造成大问题 */
+    p[0] = 'F';     // 一修改全部都炸
+    /* 所以最好还是赋给一个数组 */
+    // 这里会爆炸
+    printf("Nihao");
+    printf("Beware of %s!\n", "Nihao");
+}
+
 #endif //MAIN_CPP_数组和指针_H

@@ -6,6 +6,9 @@
 #define MAIN_CPP_指向多维数组的指针_H
 #define ROWS 3
 #define COLS 4
+#define SLEN 40
+#define LIM 5
+
 #include <cstdio>
 
 // 这里我们提出一个问题，一个多维数组，我们如何利用一个指针指向它呢？
@@ -51,8 +54,50 @@ void sum_rows(int ar[][COLS], int rows);
 void sum_cols(int [][COLS], int);       // 省略形参名，没问题
 int sum2d(int(*ar)[COLS], int rows);    // 数组指针接受
 
+
+
+/* 数组指针和字符串数组 */
+void pointer_arr_and_string_arr() {
+    /* 他们有个很大的差别
+     * 前面也在一直强调，就是静态和动态
+     * 数组所在的位置一定是动态的，本质是把字面量复制到数组中去
+     * 指针则是静态的指向字面量所在的静态地址
+     * 所以指针必须要用 const，内容不可以修改
+     * 但是数组可以，它不会修改原来的静态字面量，而是一个复制来的字面量
+        * 所以指针占用的内存其实还比较少
+        * 但是需要修改的时候，还是得用数组
+     * */
+    // 指针数组
+    const char *mytalents[LIM] = {
+            "Adding numbers swiftly",
+            "Multiplying accurately",
+            "Stashing data",
+            "Following instructions to the letter",
+            "Understanding the C language"
+    };
+    // 字符串数组
+    char yourtalents[LIM][SLEN] = {
+            "Walking in a straight line",
+            "Sleeping",
+            "Watching television",
+            "Mailing letters",
+            "Reading email"
+    };
+
+    int i;
+
+    puts("Let's compare talents.");
+    printf("%-36s  %-25s\n", "My Talents", "Your Talents");
+
+    // 显示两个数组的内容
+    for (i = 0; i < LIM; i++)
+        printf("%-36s  %-25s\n", mytalents[i], yourtalents[i]);
+    printf("\nsizeof mytalents: %zd, sizeof yourtalents: %zd\n",
+           sizeof(mytalents), sizeof(yourtalents));
+}
+
 // 入口函数
-void main_function() {
+void main_usage() {
     int junk[ROWS][COLS] = {
         { 2, 4, 6, 8 },
         { 3, 5, 7, 9 },

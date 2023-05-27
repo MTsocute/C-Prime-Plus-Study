@@ -1,8 +1,14 @@
-#include "复合字面量.h"
-#include "变长数组.h"
+#include <cstring>
+#include <字符串函数.h>
 
-int main()
+
+/*
+ * int argc 表示参数的个数
+ * argv 就是具体参数的 指针数组
+ * */
+//int main(int argv, char * argv[])
+int main(int argc, char * argv[])
 {
-    main_function();
+    useOfAtoi();
     return 0;
 }

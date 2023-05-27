@@ -57,6 +57,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/Users/momo/Desktop/C/Chapter10"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/momo/Desktop/C/Chapter11"
 				}
 			],
 			"language" : "CXX",
