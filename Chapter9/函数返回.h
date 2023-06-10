@@ -13,6 +13,29 @@ int imin(int a, int b) {
     return (a < b) ? a : b;
 }
 
+/**
+ * 函数说明：计算两个整数的和
+ *
+ * 参数：
+ *     a: 第一个整数
+ *     b: 第二个整数
+ *
+ * 返回值：
+ *     返回两个整数的和
+ *
+ * 异常情况：
+ *     无异常情况
+ *
+ * 示例：
+ *     int result = add(2, 3);  // result = 5
+ */
+int add_function(int a, int b) {
+    return a + b;
+}
+
+
+
+
 // 返回值类型和定义函数类型不一样的时候
 int what_if(int n) {
     double a = 100 / (double) n;
