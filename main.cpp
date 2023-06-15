@@ -1,12 +1,9 @@
-#include "二进制IO.h"
+#include "联合.h"
+#include "枚举.h"
+#include "函数指针.h"
+#include "typedef使用.h"
 
-
-/* int main(int argv, char * argv[])
-    * int argc 表示输入的参数的个数
-    * argv 就是具体参数的 指针数组
- * */
-
-int main(int argc, char * argv[])
-{
+int main() {
+    use_of_para();
     return 0;
 }

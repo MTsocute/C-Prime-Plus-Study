@@ -8,7 +8,6 @@
 #define STLEN 14
 #define STLEN_2 10
 #include <cstdio>
-#include <stdio.h>
 #include <cstring>
 
 /* fputs and fgets 的使用 */
@@ -83,8 +82,10 @@ void skip_func() {
             while (getchar() != '\n')   // 越界的部分只会留下一个换行符
                 continue;
         /*
-         * 不越界的部分打印出来
-         * 越界的部分省略之后只剩下一个换行符号会被打印出来
+         * 使用 while (getchar() != '\n') continue;
+         * 来循环读取并丢弃输入缓冲区中的字符
+         * 确保在下一次循环中能够正确获取用户的输入。
+         * 它会消耗掉多余的字符，以免影响程序的逻辑和后续的输入操作
          * */
         puts(words);
     }
