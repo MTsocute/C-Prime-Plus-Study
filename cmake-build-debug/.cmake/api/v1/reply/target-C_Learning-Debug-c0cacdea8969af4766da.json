@@ -42,7 +42,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
+					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics"
 				},
 				{
 					"fragment" : "-std=gnu++14"
@@ -73,6 +73,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/Users/momo/Desktop/C/Chapter14"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/momo/Desktop/C/Chapter15"
 				}
 			],
 			"language" : "CXX",

@@ -1,9 +1,6 @@
-#include "联合.h"
-#include "枚举.h"
-#include "函数指针.h"
-#include "typedef使用.h"
+#include "位字段.h"
 
 int main() {
-    use_of_para();
+    bit_field::show_size();
     return 0;
 }
