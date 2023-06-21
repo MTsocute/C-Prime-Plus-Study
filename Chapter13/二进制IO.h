@@ -4,19 +4,20 @@
 
 #ifndef MAIN_CPP_二进制IO_H
 #define MAIN_CPP_二进制IO_H
+
 #include <cstdlib>
 #include <cstring>
 #include <cstdio>
+
 #define BUFSIZE 4096
 #define SLEN 81
 
+void append(FILE *source, FILE *dest);
+char *s_gets(char *st, int n);
+
 
 /* append.c -- 把文件附加到另一个文件末尾 */
-void append(FILE *source, FILE *dest);
-char * s_gets(char * st, int n);
-
-void main_function()
-{
+void main_function() {
     FILE *fa, *fs;          // fa 指向目标文件，fs 指向源文件
     int files = 0;          // 附加的文件数量
     char file_app[SLEN];    // 目标文件名
@@ -28,15 +29,13 @@ void main_function()
     s_gets(file_app, SLEN);
 
     // 处理找不到目标文件
-    if ((fa = fopen(file_app, "ab+")) == nullptr)
-    {
+    if ((fa = fopen(file_app, "ab+")) == nullptr) {
         fprintf(stderr, "Can't open %s\n", file_app);
         exit(EXIT_FAILURE);
     }
 
     // 找到了目标文件，开辟一个缓存区(满刷新) 用于接受源文件的内容
-    if (setvbuf(fa, nullptr, _IOFBF, BUFSIZE) != 0)
-    {
+    if (setvbuf(fa, nullptr, _IOFBF, BUFSIZE) != 0) {
         fputs("Can't create output buffer\n", stderr);
         exit(EXIT_FAILURE);
     }
@@ -44,18 +43,16 @@ void main_function()
     // 输入每一个目标文件的名字
     puts("Enter name of first source file (empty line to quit):");
     // 用户输入了文件名且输入的内容不为空
-    while (s_gets(file_src, SLEN) && file_src[0] != '\0')
-    {
+    while (s_gets(file_src, SLEN) && file_src[0] != '\0') {
         // 目标文件和源文件内容一样
         if (strcmp(file_src, file_app) == 0)
             fputs("Can't append file to itself\n", stderr);
 
-        // 源文件不存在
+            // 源文件不存在
         else if ((fs = fopen(file_src, "rb")) == nullptr)
             fprintf(stderr, "Can't open %s\n", file_src);
 
-        else
-        {
+        else {
             // 开辟一个缓存区，存储源文件数据，同时进行防止 cache 开辟失败的处理
             if (setvbuf(fs, nullptr, _IOFBF, BUFSIZE) != 0) {
                 fputs("Can't create input buffer\n", stderr);
@@ -91,6 +88,8 @@ void append(FILE *source, FILE *dest) {
     size_t bytes;
     static char temp[BUFSIZE];    // 只分配一次
     // 把源文件文件缓存区的内容拷贝到目标文件缓存区
+    // fread() 会读取文件中的二进制数据都是字节，然后填满缓冲区大小
+    // 对应的返回值就是字节数，当不再 > 0 的时候，就是读完了，利用这个我们可以读取全部内容
     while ((bytes = fread(temp, sizeof(char), BUFSIZE, source)) > 0)
         // 注意这里的 byte 是指定写入多少个
         fwrite(temp, sizeof(char), bytes, dest);
@@ -98,9 +97,9 @@ void append(FILE *source, FILE *dest) {
 
 
 // 处理输入文件名的时候过长或换行的问题
-char * s_gets(char * st, int n) {
-    char * ret_val;
-    char * find;
+char *s_gets(char *st, int n) {
+    char *ret_val;
+    char *find;
 
     ret_val = fgets(st, n, stdin);
     if (ret_val) {

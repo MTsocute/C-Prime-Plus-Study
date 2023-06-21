@@ -1,6 +1,6 @@
-#include "位字段.h"
+#include "内联函数.h"
 
 int main() {
-    bit_field::show_size();
+
     return 0;
 }

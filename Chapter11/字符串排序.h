@@ -54,7 +54,7 @@ void sort_str(char arr[], int len) {
             }
 }
 
-
+// 给字符串数组赋值的函数（处理越界问题）
 char * s_get(char * str, int n) {
     // 获取外部用户输入
     char * real_val;

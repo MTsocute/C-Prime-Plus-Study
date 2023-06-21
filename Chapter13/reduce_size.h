@@ -5,6 +5,7 @@
 #ifndef MAIN_CPP_REDUCE_SIZE_H
 #define MAIN_CPP_REDUCE_SIZE_H
 #include <cstdio>
+#include <cstdlib>
 #include <cstring>
 #define LEN 40
 

@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C_Learning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "C_Learning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_Learning-Debug-5ed01e6978677783f69e.json",
+					"name" : "C_Learning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RECT_TO_POL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RECT_TO_POL-Debug-6e5d6fdca25dfad828f7.json",
+					"name" : "RECT_TO_POL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arr_CP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arr_CP-Debug-10d152d38ec7a8dbb592.json",
+					"name" : "arr_CP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assert-Debug-71b2a5f3851d17a43ba9.json",
+					"name" : "assert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "variable_para::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-variable_para-Debug-a78e330058c69115b998.json",
+					"name" : "variable_para",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/momo/Desktop/C/cmake-build-debug",
+		"source" : "/Users/momo/Desktop/C"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

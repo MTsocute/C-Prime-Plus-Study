@@ -16,17 +16,17 @@ void use_of_fgets_fputs() {
     puts("Enter a string, please.");
 
     /* 关于 fgets() 的参数：
-     * 1.写入的对象
-     * 2.限制的长度
-     * 3.从键盘输入数据
+        * 1.写入的对象
+        * 2.限制的长度
+        * 3.从键盘输入数据
      * */
     fgets(words, STLEN, stdin);
 
     printf("Your string twice (puts(), then fputs()):\n");
     puts(words);    // 会自动在末尾添加换行符号
     /* fputs() 的参数：
-     * 1.读出的对象
-     * 2.读出到屏幕
+        * 1.读出的对象
+        * 2.读出到屏幕
      * */
     fputs(words, stdout);   // 不会在末尾添加换行符号的
 }

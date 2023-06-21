@@ -1,0 +1,48 @@
+//
+// Created by Momo on 2023/6/20.
+//
+
+#ifndef C_LEARNING_宏参数_
+#define C_LEARNING_宏参数_
+
+#include <cstdio>
+#include <cstdlib>
+
+// 宏定义中使用参数
+/* 宏参数
+    * SQUARE是宏标识符
+    * SQUARE(X)中的 X 是宏参数
+    * X*X 是替换列表
+ */
+#define SQUARE(X) X*X
+#define PR(X)   printf("The result is %d.\n", X)
+
+// 利用宏参数实现的效果演示
+void use_of_define_para() {
+    int a = 2;
+    PR(SQUARE(a));
+}
+
+// define 不做运算，只做替换
+// 下列演示的输出结果都是和预期不符的
+void problem_of_define_para() {
+    int x = 5;
+    // #define 把 x+2 作为 X，所以有 x+2 * x+2
+    // 要处理这个问题就得把 X 加括号
+    PR(SQUARE(x + 2));
+    // 这里相当于 100 / 2 * 2，就还是 100
+    PR(100 / SQUARE(2));
+}
+
+// # 预处理黏合剂
+#define XNAME(n) x ## n
+#define PRINT_XN(n) printf("x" #n " = %d\n", x ## n);
+
+void combine_a_variable() {
+    int XNAME(1) = 14;      // 变成 int x1 = 14;
+    PRINT_XN(1);            // 变成 printf("x1 = %d\n", x1);
+}
+
+
+
+#endif //C_LEARNING_宏参数_

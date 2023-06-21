@@ -122,6 +122,7 @@ void readfile_getc()
 
     puts("Content of the file:");
 
+    // 遍历文件内容
     while ((ch = (char )getc(fp)) != EOF)
         printf("%c", ch);
     printf("\n");
