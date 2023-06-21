@@ -41,174 +41,43 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/momo/Desktop/C/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target C_Learning
+# Object build statements for EXECUTABLE target plist
 
 
 #############################################
-# Order-only phony target for C_Learning
+# Order-only phony target for plist
 
-build cmake_object_order_depends_target_C_Learning: phony || CMakeFiles/C_Learning.dir
+build cmake_object_order_depends_target_plist: phony || CMakeFiles/plist.dir
 
-build CMakeFiles/C_Learning.dir/main.cpp.o: CXX_COMPILER__C_Learning_Debug /Users/momo/Desktop/C/main.cpp || cmake_object_order_depends_target_C_Learning
-  DEP_FILE = CMakeFiles/C_Learning.dir/main.cpp.o.d
+build CMakeFiles/plist.dir/Chapter17/list.cpp.o: CXX_COMPILER__plist_Debug /Users/momo/Desktop/C/Chapter17/list.cpp || cmake_object_order_depends_target_plist
+  DEP_FILE = CMakeFiles/plist.dir/Chapter17/list.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++14
-  INCLUDES = -I/Users/momo/Desktop/C/Homework -I/Users/momo/Desktop/C/Chapter10 -I/Users/momo/Desktop/C/Chapter11 -I/Users/momo/Desktop/C/Chapter12 -I/Users/momo/Desktop/C/Chapter13 -I/Users/momo/Desktop/C/Chapter14 -I/Users/momo/Desktop/C/Chapter15 -I/Users/momo/Desktop/C/Chapter16
-  OBJECT_DIR = CMakeFiles/C_Learning.dir
-  OBJECT_FILE_DIR = CMakeFiles/C_Learning.dir
+  INCLUDES = -I/Users/momo/Desktop/C/Chapter17
+  OBJECT_DIR = CMakeFiles/plist.dir
+  OBJECT_FILE_DIR = CMakeFiles/plist.dir/Chapter17
 
-build CMakeFiles/C_Learning.dir/Chapter16/条件编译/ifdef.cpp.o: CXX_COMPILER__C_Learning_Debug /Users/momo/Desktop/C/Chapter16/条件编译/ifdef.cpp || cmake_object_order_depends_target_C_Learning
-  DEP_FILE = CMakeFiles/C_Learning.dir/Chapter16/条件编译/ifdef.cpp.o.d
+build CMakeFiles/plist.dir/Chapter17/main_list.cpp.o: CXX_COMPILER__plist_Debug /Users/momo/Desktop/C/Chapter17/main_list.cpp || cmake_object_order_depends_target_plist
+  DEP_FILE = CMakeFiles/plist.dir/Chapter17/main_list.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++14
-  INCLUDES = -I/Users/momo/Desktop/C/Homework -I/Users/momo/Desktop/C/Chapter10 -I/Users/momo/Desktop/C/Chapter11 -I/Users/momo/Desktop/C/Chapter12 -I/Users/momo/Desktop/C/Chapter13 -I/Users/momo/Desktop/C/Chapter14 -I/Users/momo/Desktop/C/Chapter15 -I/Users/momo/Desktop/C/Chapter16
-  OBJECT_DIR = CMakeFiles/C_Learning.dir
-  OBJECT_FILE_DIR = CMakeFiles/C_Learning.dir/Chapter16/条件编译
-
-build CMakeFiles/C_Learning.dir/Chapter16/条件编译/if_条件定义.cpp.o: CXX_COMPILER__C_Learning_Debug /Users/momo/Desktop/C/Chapter16/条件编译/if_条件定义.cpp || cmake_object_order_depends_target_C_Learning
-  DEP_FILE = CMakeFiles/C_Learning.dir/Chapter16/条件编译/if_条件定义.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++14
-  INCLUDES = -I/Users/momo/Desktop/C/Homework -I/Users/momo/Desktop/C/Chapter10 -I/Users/momo/Desktop/C/Chapter11 -I/Users/momo/Desktop/C/Chapter12 -I/Users/momo/Desktop/C/Chapter13 -I/Users/momo/Desktop/C/Chapter14 -I/Users/momo/Desktop/C/Chapter15 -I/Users/momo/Desktop/C/Chapter16
-  OBJECT_DIR = CMakeFiles/C_Learning.dir
-  OBJECT_FILE_DIR = CMakeFiles/C_Learning.dir/Chapter16/条件编译
+  INCLUDES = -I/Users/momo/Desktop/C/Chapter17
+  OBJECT_DIR = CMakeFiles/plist.dir
+  OBJECT_FILE_DIR = CMakeFiles/plist.dir/Chapter17
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target C_Learning
+# Link build statements for EXECUTABLE target plist
 
 
 #############################################
-# Link the executable C_Learning
+# Link the executable plist
 
-build C_Learning: CXX_EXECUTABLE_LINKER__C_Learning_Debug CMakeFiles/C_Learning.dir/main.cpp.o CMakeFiles/C_Learning.dir/Chapter16/条件编译/ifdef.cpp.o CMakeFiles/C_Learning.dir/Chapter16/条件编译/if_条件定义.cpp.o
+build plist: CXX_EXECUTABLE_LINKER__plist_Debug CMakeFiles/plist.dir/Chapter17/list.cpp.o CMakeFiles/plist.dir/Chapter17/main_list.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/C_Learning.dir
+  OBJECT_DIR = CMakeFiles/plist.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = C_Learning
-  TARGET_PDB = C_Learning.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target RECT_TO_POL
-
-
-#############################################
-# Order-only phony target for RECT_TO_POL
-
-build cmake_object_order_depends_target_RECT_TO_POL: phony || CMakeFiles/RECT_TO_POL.dir
-
-build CMakeFiles/RECT_TO_POL.dir/Chapter16/直角坐标转极坐标.cpp.o: CXX_COMPILER__RECT_TO_POL_Debug /Users/momo/Desktop/C/Chapter16/直角坐标转极坐标.cpp || cmake_object_order_depends_target_RECT_TO_POL
-  DEP_FILE = CMakeFiles/RECT_TO_POL.dir/Chapter16/直角坐标转极坐标.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++14
-  OBJECT_DIR = CMakeFiles/RECT_TO_POL.dir
-  OBJECT_FILE_DIR = CMakeFiles/RECT_TO_POL.dir/Chapter16
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target RECT_TO_POL
-
-
-#############################################
-# Link the executable RECT_TO_POL
-
-build RECT_TO_POL: CXX_EXECUTABLE_LINKER__RECT_TO_POL_Debug CMakeFiles/RECT_TO_POL.dir/Chapter16/直角坐标转极坐标.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/RECT_TO_POL.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = RECT_TO_POL
-  TARGET_PDB = RECT_TO_POL.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target assert
-
-
-#############################################
-# Order-only phony target for assert
-
-build cmake_object_order_depends_target_assert: phony || CMakeFiles/assert.dir
-
-build CMakeFiles/assert.dir/Chapter16/断言库.cpp.o: CXX_COMPILER__assert_Debug /Users/momo/Desktop/C/Chapter16/断言库.cpp || cmake_object_order_depends_target_assert
-  DEP_FILE = CMakeFiles/assert.dir/Chapter16/断言库.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++14
-  OBJECT_DIR = CMakeFiles/assert.dir
-  OBJECT_FILE_DIR = CMakeFiles/assert.dir/Chapter16
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target assert
-
-
-#############################################
-# Link the executable assert
-
-build assert: CXX_EXECUTABLE_LINKER__assert_Debug CMakeFiles/assert.dir/Chapter16/断言库.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/assert.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = assert
-  TARGET_PDB = assert.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target arr_CP
-
-
-#############################################
-# Order-only phony target for arr_CP
-
-build cmake_object_order_depends_target_arr_CP: phony || CMakeFiles/arr_CP.dir
-
-build CMakeFiles/arr_CP.dir/Chapter16/数组的拷贝.cpp.o: CXX_COMPILER__arr_CP_Debug /Users/momo/Desktop/C/Chapter16/数组的拷贝.cpp || cmake_object_order_depends_target_arr_CP
-  DEP_FILE = CMakeFiles/arr_CP.dir/Chapter16/数组的拷贝.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++14
-  OBJECT_DIR = CMakeFiles/arr_CP.dir
-  OBJECT_FILE_DIR = CMakeFiles/arr_CP.dir/Chapter16
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target arr_CP
-
-
-#############################################
-# Link the executable arr_CP
-
-build arr_CP: CXX_EXECUTABLE_LINKER__arr_CP_Debug CMakeFiles/arr_CP.dir/Chapter16/数组的拷贝.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/arr_CP.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = arr_CP
-  TARGET_PDB = arr_CP.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target variable_para
-
-
-#############################################
-# Order-only phony target for variable_para
-
-build cmake_object_order_depends_target_variable_para: phony || CMakeFiles/variable_para.dir
-
-build CMakeFiles/variable_para.dir/Chapter16/可变参数.cpp.o: CXX_COMPILER__variable_para_Debug /Users/momo/Desktop/C/Chapter16/可变参数.cpp || cmake_object_order_depends_target_variable_para
-  DEP_FILE = CMakeFiles/variable_para.dir/Chapter16/可变参数.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++14
-  OBJECT_DIR = CMakeFiles/variable_para.dir
-  OBJECT_FILE_DIR = CMakeFiles/variable_para.dir/Chapter16
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target variable_para
-
-
-#############################################
-# Link the executable variable_para
-
-build variable_para: CXX_EXECUTABLE_LINKER__variable_para_Debug CMakeFiles/variable_para.dir/Chapter16/可变参数.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/variable_para.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = variable_para
-  TARGET_PDB = variable_para.dbg
+  TARGET_FILE = plist
+  TARGET_PDB = plist.dbg
 
 
 #############################################
@@ -244,7 +113,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/momo/Desktop/C/cmake-build-debug
 
-build all: phony C_Learning RECT_TO_POL assert arr_CP variable_para
+build all: phony plist
 
 # =============================================================================
 # Built-in targets

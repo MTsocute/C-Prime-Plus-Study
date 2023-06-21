@@ -11,11 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="C_Learning" targetName="C_Learning" />
-      <config projectName="C_Learning" targetName="assert" />
-      <config projectName="C_Learning" targetName="RECT_TO_POL" />
-      <config projectName="C_Learning" targetName="variable_para" />
-      <config projectName="C_Learning" targetName="arr_CP" />
+      <config projectName="C_Learning" targetName="plist" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -25,39 +21,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="602889a5-d25a-4576-940a-1d7207058ab4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter16/内联函数.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/变参宏.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/可变参数.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/宏参数" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/数组的拷贝.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/断言库.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/条件编译/cow.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/条件编译/horse.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/条件编译/if_条件定义.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/条件编译/ifdef.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/直角坐标转极坐标.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/预定义宏.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter17/list.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter17/list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter17/main_list.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter17/链表.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter11/字符串排序.h" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/字符串排序.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter11/字符串输入输出函数.h" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/字符串输入输出函数.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/reduce_size.h" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/reduce_size.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/二进制IO.h" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/二进制IO.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/文件读写.h" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/文件读写.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-09169f3ea1267a4874f4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f77dc34e0bbe9134b70a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-20T02-08-53-0027.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-C_Learning-Debug-c0cacdea8969af4766da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-b0f86a4c6537104d632d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-21T17-06-27-0721.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-C_Learning-Debug-5ed01e6978677783f69e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-RECT_TO_POL-Debug-6e5d6fdca25dfad828f7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-arr_CP-Debug-10d152d38ec7a8dbb592.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-assert-Debug-71b2a5f3851d17a43ba9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-variable_para-Debug-a78e330058c69115b998.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Learning" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_Learning" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Learning" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RECT_TO_POL" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/assert" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,47 +90,21 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "configurable.group.appearance",
+    "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.assert">
+  <component name="RunManager">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C_Learning" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Learning" TARGET_NAME="C_Learning" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Learning" RUN_TARGET_NAME="C_Learning">
+    <configuration name="plist" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Learning" TARGET_NAME="plist" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Learning" RUN_TARGET_NAME="plist">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RECT_TO_POL" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Learning" TARGET_NAME="RECT_TO_POL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Learning" RUN_TARGET_NAME="RECT_TO_POL">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arr_CP" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Learning" TARGET_NAME="arr_CP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Learning" RUN_TARGET_NAME="arr_CP">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="assert" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Learning" TARGET_NAME="assert" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Learning" RUN_TARGET_NAME="assert">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="variable_para" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Learning" TARGET_NAME="variable_para" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Learning" RUN_TARGET_NAME="variable_para">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="CMake Application.arr_CP" />
-      <item itemvalue="CMake Application.assert" />
-      <item itemvalue="CMake Application.C_Learning" />
-      <item itemvalue="CMake Application.RECT_TO_POL" />
-      <item itemvalue="CMake Application.variable_para" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -163,7 +125,10 @@
       <workItem from="1687226956386" duration="6112000" />
       <workItem from="1687235505493" duration="1532000" />
       <workItem from="1687261269190" duration="15459000" />
-      <workItem from="1687357945357" duration="10042000" />
+      <workItem from="1687357945357" duration="17346000" />
+      <workItem from="1687376821232" duration="107000" />
+      <workItem from="1687376938389" duration="26000" />
+      <workItem from="1687376969563" duration="3035000" />
     </task>
     <servers />
   </component>
